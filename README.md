@@ -1,9 +1,9 @@
 ## Кладовка
-Слайдер
+#Слайдер
 * https://github.com/jssor/slider
 * https://github.com/stevenwanderski/bxslider-4
 * https://github.com/codrops/Blueprint-FullWidthImageSlider
-Оформление портфолио
+#Оформление портфолио
 * http://safarizator.ru/
 * http://getcover.ru/
 * http://makepreview.ru/
