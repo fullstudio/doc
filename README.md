@@ -1,4 +1,10 @@
 # Кладовка
+##Ruby Node Git
+* https://www.ruby-lang.org/ru/downloads/
+* https://nodejs.org/en/download/
+* https://git-scm.com/downloads
+* 
+
 ## Lightbox
 * http://lokeshdhakar.com/projects/lightbox2/
 * http://ashleydw.github.io/lightbox/
