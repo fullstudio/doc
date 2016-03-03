@@ -3,7 +3,7 @@
 * https://www.ruby-lang.org/ru/downloads/
 * https://nodejs.org/en/download/
 * https://git-scm.com/downloads
-* 
+* https://tortoisegit.org/download/
 
 ## Lightbox
 * http://lokeshdhakar.com/projects/lightbox2/
@@ -11,7 +11,6 @@
 * https://github.com/brutaldesign/swipebox
 * http://www.stripjs.com/
 * http://sachinchoolur.github.io/lightslider/examples.html
-* 
 
 ## Slider
 
