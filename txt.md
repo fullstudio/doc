@@ -23,3 +23,5 @@ ctrl+shift+P выбираем пункт Package control: install выбирае
 ## Другие текстовые редакторы
 * Notepad++ https://notepad-plus-plus.org/
 * WebStorm https://www.jetbrains.com/webstorm/
+* Brackets http://brackets.io/
+* Atom https://atom.io/
