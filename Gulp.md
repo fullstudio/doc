@@ -18,6 +18,8 @@ npm cache clear	- очистка кеша npm
 npm init - создаем фаил package.json с зависимостями
 ```
 ## Узнать версию Node, Gulp, NPM
-* node --version
-* gulp --version
-* npm --version
+```ch
+node --version
+gulp --version
+npm --version
+```
