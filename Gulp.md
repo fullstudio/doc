@@ -10,6 +10,7 @@
 npm install --global gulp-cli - установить глобально Gulp (на машину)
 npm install --save-dev gulp - установка Gulp в проект
 npm install	- установить пакеты из package.json
+npm install --force - установка принудительно пакеты
 npm uninstall --global gulp-cli	- для глобального удаления Gulp
 npm uninstall gulp	- для удаления Gulp из проекта
 npm uninstall название модуля
