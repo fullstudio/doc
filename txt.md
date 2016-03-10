@@ -3,7 +3,7 @@
 ## Sublime Text
 * Sublime Text 3 https://www.sublimetext.com/3
 * Sublime Text 2 http://www.sublimetext.com/2
-## Устанавливаем менеджер пакетов https://packagecontrol.io/installation
+* Устанавливаем менеджер пакетов https://packagecontrol.io/installation
 * Копируем код для нужной версии sublime
 * Нажимаем сочетание клавиш ctrl+` открываем консоль
 * Вставляем код который скопировали, нажимаем Enter
