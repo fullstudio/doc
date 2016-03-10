@@ -9,14 +9,19 @@
 ```ch
 npm install --global gulp-cli - установить глобально Gulp (на машину)
 npm install --save-dev gulp - установка Gulp в проект
-npm install	- установить пакеты из package.json
-npm install --force - установка принудительно пакеты
 npm uninstall --global gulp-cli	- для глобального удаления Gulp
 npm uninstall gulp	- для удаления Gulp из проекта
-npm uninstall название модуля
-npm update gulp	- обновления версий плагинов
 npm cache clear	- очистка кеша npm
 npm init - создаем фаил package.json с зависимостями
+```
+## Установка и удаление пакетов package.json
+```ch
+npm install	- установить все пакеты из package.json
+npm install <package> название модуля --save - установка пакета в проект package.json dependencies
+npm install <package> название модуля --save-dev - установка пакета в проект package.json devDependencies
+npm install --force - установка принудительно пакеты
+npm uninstall название модуля <package> - удаление пакета
+npm update название модуля	- обновления версий пакетов
 ```
 ## Узнать версию Node, Gulp, NPM
 ```ch
@@ -31,29 +36,3 @@ gulp --tasks создает дерево зависимостей
 gulp --color - отображает все в цвете
 gulp <task> - запускает отдельно <task>
 ```
-## Поиск устанавливаемых пакетов
-* https://www.npmjs.com/
-
-## Bower install
-* документация http://bower.io/
-* npm install -g bower - установка bower глобально
-* bower install jquery - установка пакета jquery
-* bower install git://github.com/user/package.git - установка с git репозитория
-* bower install http://example.com/script.js - установка с URL сайта
-* bower install - установка пакетов с bower.json если он уже есть
-* bower install <package> --save - установка в bower.json dependencies
-* bower install <package> --save-dev - bower.json devDependencies
-* bower init - создаем фаил bower.json с зависимостями
-* bower uninstall jquery - удаление пакета jquery
-* bower cache clean - очистка кеша bower
-* http://bower.io/docs/api/ - больше о командах 
-```
-Фаил .bowerrc хранит путь к bower папке где будут храниться установленные пакеты
-{
- "directory" : "/bower_components"
-}
-В данном случае это корень проекта в папке bower_components.
-```
-# Поиск устанавливаемых пакетов
-* http://bower.io/search
-
