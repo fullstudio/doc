@@ -15,10 +15,14 @@
 ctrl+shift+P выбираем пункт Package control: install выбираем и устанавливаем нужный пакет
 ```
 ### Устанавливаем пакеты
-* ColorPicker
-* Emmet
+* ColorPicker для выбора цвета прям в самом редакторе Ctrl/Cmd + Shift 
+* Emmet http://docs.emmet.io/cheat-sheet/
 * Stylus
 * Jade
+* AllAutocomplete автодополнение
+* Sublime Linter проверка кода
+* AutoFileName автозаполнение путей к подключаемым файлам
+* Placeholders вставлять в код рыбы (простой текст)
 
 ## Другие текстовые редакторы
 * Notepad++ https://notepad-plus-plus.org/
