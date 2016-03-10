@@ -14,3 +14,10 @@
 * WebStorm https://www.jetbrains.com/webstorm/
 * Brackets http://brackets.io/
 * Atom https://atom.io/
+
+## Файловые менеджеры
+* Yandex Disk https://disk.yandex.ru/download/#pc
+* Dropbox https://www.dropbox.com/ru/
+
+## Дополнительные программы
+* Java https://www.java.com/ru/download/
