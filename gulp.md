@@ -31,4 +31,12 @@ npm --version
 * gulp --color - отображает все в цвете
 * gulp <task> - запускает отдельно <task>
 ```
+## Поиск устанавливаемых пакетов
+* https://www.npmjs.com/
 
+## Bower install
+* документация http://bower.io/
+* npm install -g bower - установка bower глобально
+* bower install jquery - установка пакета jquery
+* bower install git://github.com/user/package.git - установка с git репозитория
+* bower install http://example.com/script.js - установка с URL сайта
