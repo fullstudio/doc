@@ -23,3 +23,11 @@ node --version
 gulp --version
 npm --version
 ```
+## Некоторые приятности
+```ch
+* gulp --tasks-simple показывает все основные зависимости
+* gulp --tasks создает дерево зависимостей
+* gulp --color - отображает все в цвете
+* gulp <task> - запускает отдельно <task>
+```
+
