@@ -18,6 +18,7 @@
 ## Файловые менеджеры
 * Yandex Disk https://disk.yandex.ru/download/#pc
 * Dropbox https://www.dropbox.com/ru/
+* FileZilla FTP клиент http://filezilla.ru/get/
 
 ## Дополнительные программы
 * Java https://www.java.com/ru/download/
