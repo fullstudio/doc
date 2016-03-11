@@ -1,15 +1,15 @@
 # Генерация нового приватного и публичного ключа для репозитория
-№1 Открываем консоль Git bash и вставляем строку с измененным почтовым адресом и нажимаем ENTER
+* Открываем консоль Git bash и вставляем строку с измененным почтовым адресом и нажимаем ENTER
 ```ch
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 # Creates a new ssh key, using the provided email as a label
 Generating public/private rsa key pair.
 ```
-№2 Появится запись которая приведена ниже, это месторазположение по умолчинию ключа, жмем ENTER
+* Появится запись которая приведена ниже, это месторазположение по умолчинию ключа, жмем ENTER
 ```ch
 Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]
 ```
-№3 Далее он выдаст сообщение, для того чтоб ввести пароль который вы указали при регистрации аккаунта на https://github.com/
+* Далее он выдаст сообщение, для того чтоб ввести пароль который вы указали при регистрации аккаунта на https://github.com/
 ```ch
 Enter passphrase (empty for no passphrase): [Type a passphrase]
 Enter same passphrase again: [Type passphrase again]
@@ -33,5 +33,20 @@ Agent pid 59566
 ```ch
 ssh-add ~/.ssh/id_rsa
 ```
-#
+### НЕЗАБУДЬТЕ публичный ключь добавить на сайт
+
 *Больше информации https://help.github.com/articles/generating-an-ssh-key/*
+
+#### Для проверки выполните команду
+```ch
+ssh -T git@github.com
+# Attempts to ssh to GitHub
+```
+В ответ вы получите приветствие
+```ch
+Hi username! You've successfully authenticated, but GitHub does not
+provide shell access.
+```
+*больше информации https://help.github.com/articles/testing-your-ssh-connection/*
+
+
