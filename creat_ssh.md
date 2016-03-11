@@ -14,10 +14,10 @@ Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]
 Enter passphrase (empty for no passphrase): [Type a passphrase]
 Enter same passphrase again: [Type passphrase again]
 ```
-* Больше информации https://help.github.com/articles/generating-an-ssh-key/ *
+*Больше информации https://help.github.com/articles/generating-an-ssh-key/*
+
 ## Добавить SSH key в ssh-agent
-1. 
-###### Добавить в Git Bash
+1. Добавить в Git Bash
 ```ch
 # start the ssh-agent in the background
 eval "$(ssh-agent -s)"
@@ -29,8 +29,7 @@ Agent pid 59566
 eval $(ssh-agent -s)
 Agent pid 59566
 ```
-2.
-###### Добавить ключ в ssh-agent
+2. Добавить ключ в ssh-agent
 ```ch
 ssh-add ~/.ssh/id_rsa
 ```
