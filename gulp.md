@@ -16,13 +16,37 @@ npm init - создаем фаил package.json с зависимостями
 ```
 ## Установка и удаление пакетов package.json
 ```ch
-npm install	- установить все пакеты из package.json
-npm install <package> название модуля --save - установка пакета в проект package.json dependencies
-npm install <package> название модуля --save-dev - установка пакета в проект package.json devDependencies
+npm install	- устанавливает все пакеты, перечисленные в package.json
+npm install <package> название модуля --save - устанавливает <package> и вносит запись о нем в package.json в секцию dependencies
+npm install <package> название модуля --save-dev - устанавливает <package> и вносит запись о нем в package.json в секцию devDependencies
 npm install --force - установка принудительно пакеты
 npm uninstall название модуля <package> - удаление пакета
 npm update название модуля	- обновления версий пакетов
 ```
+Варианты с --save и --save-dev сделают запись в package.json только, если он уже существует.
+
+Ключ	Сокращение
+install		i
+uninstall	r
+config		c
+update		up
+list		ls
+--save		-S
+--save-dev	-D
+
+```
+npm install express --save cовершенно то же самое npm i express -S
+```
+
+## Выведет список всех возможных настроек
+```
+npm config ls -l
+```
+## Бывает полезно сделать прежде чем делать update
+```
+npm outdated
+```
+
 ## Узнать версию Node, Gulp, NPM
 ```ch
 node --version
