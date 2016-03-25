@@ -9,6 +9,7 @@
 * https://github.com/varunnaik/A-Slider с проигрыванием музыки
 * https://github.com/rcaferati/awesome-slider
 * https://github.com/dorian-marchal/page-slider страничный слайдер
+* https://github.com/gilbitron/Ideal-Image-Slider
 
 # Gallery
 * https://github.com/dimsemenov/PhotoSwipe doc http://photoswipe.com/documentation/getting-started.html
