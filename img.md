@@ -10,6 +10,9 @@
 * https://github.com/rcaferati/awesome-slider
 * https://github.com/dorian-marchal/page-slider страничный слайдер
 * https://github.com/gilbitron/Ideal-Image-Slider
+* http://kenwheeler.github.io/slick/#demos крутой
+* http://fotorama.io/
+* http://www.owlcarousel.owlgraphic.com/
 
 # Gallery
 * https://github.com/dimsemenov/PhotoSwipe doc http://photoswipe.com/documentation/getting-started.html
