@@ -17,6 +17,7 @@
 # Gallery
 * https://github.com/dimsemenov/PhotoSwipe doc http://photoswipe.com/documentation/getting-started.html
 * https://github.com/sachinchoolur/lightGallery
+* https://sachinchoolur.github.io/lightgallery.js/demos/index.html очень даже неплохо
 
 ## Оформление портфолио
 * http://safarizator.ru/
