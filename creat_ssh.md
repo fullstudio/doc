@@ -47,10 +47,10 @@ ssh -T git@github.com
 Hi username! You've successfully authenticated, but GitHub does not
 provide shell access.
 ```
-*больше информации https://help.github.com/articles/testing-your-ssh-connection/*
+*Больше информации https://help.github.com/articles/testing-your-ssh-connection/*
 
 #Adding keys to Heroku
-*Добавление ключа уже сгенерированного на Heroku 
+* Добавление ключа уже сгенерированного на Heroku 
 ```
 $heroku keys:add
 Found existing public key: /Users/adam/.ssh/id_rsa.pub
