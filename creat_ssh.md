@@ -49,4 +49,25 @@ provide shell access.
 ```
 *больше информации https://help.github.com/articles/testing-your-ssh-connection/*
 
-
+#Adding keys to Heroku
+*Добавление ключа уже сгенерированного на Heroku 
+```
+$heroku keys:add
+Found existing public key: /Users/adam/.ssh/id_rsa.pub
+Uploading SSH public key /Users/adam/.ssh/id_rsa.pub... done
+```
+*если нужно удалить ключ
+```
+heroku keys:remove adam@workstation.local
+```
+*Проверка на то что он добавился на Heroku 
+```
+ heroku keys
+=== joe@example.com Keys
+ssh-dss AAAAB8NzaC...DVj3R4Ww== adam@workstation.local
+```
+*Проверка подключения соединения
+```
+ ssh -v git@heroku.com
+```
+*Больше информации можно найти тут https://devcenter.heroku.com/articles/keys*
