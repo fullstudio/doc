@@ -56,17 +56,17 @@ $heroku keys:add
 Found existing public key: /Users/adam/.ssh/id_rsa.pub
 Uploading SSH public key /Users/adam/.ssh/id_rsa.pub... done
 ```
-*если нужно удалить ключ
+* Если нужно удалить ключ
 ```
 heroku keys:remove adam@workstation.local
 ```
-*Проверка на то что он добавился на Heroku 
+* Проверка на то что он добавился на Heroku 
 ```
  heroku keys
 === joe@example.com Keys
 ssh-dss AAAAB8NzaC...DVj3R4Ww== adam@workstation.local
 ```
-*Проверка подключения соединения
+* Проверка подключения соединения
 ```
  ssh -v git@heroku.com
 ```
